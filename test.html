@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  
+  .border{
+	margin: 10% 20% 20% 40%;
+	
+  }
+  table{
+	padding :20px;
+	border : 2px outset green;
+  }
+  
+  .required{
+	color:red;
+	vertical-align:middle;
+  }	
+</style>
+</head>
+<body>
+<form action="submitpag.html">
+<div class="border">
+​<table border=0 >
+	<tr>
+		<td>User name <span class="required">*</span></td>
+		<td><input type="text" name="userName" required>  </td>
+	</tr>
+	<tr>
+		<td>Password <span class="required">*</span></td>
+		<td><input type="text" name="password" required> </td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="submit" value="Login"/>
+			
+		</td>
+	</tr>
+</table>
+
+<div>
+<p>New User Please Sign Up below</p>
+<a href="signup.html">Sign UP</a>
+</form>
+</body>
