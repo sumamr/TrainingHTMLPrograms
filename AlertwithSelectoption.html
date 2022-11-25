@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select option </title>
+<center><h1>Select your Course</h1></center>
+</head>
+<style>
+
+body{
+	font-size:20px;
+	border:2px outset black;
+}
+</style>
+<body>
+<script>
+function suma(){
+var q=document.getElementById("s").value;
+console.log(q);
+alert("Your option is " +q);
+}
+</script>
+<center>
+Courses:<select name="college" id="s">
+        <option value="BCA">BCA</option>
+        <option value="BE">BE</option>
+        <option value="BTECH">BTECH</option>
+        <option value="BSC">BSC</option>
+        <option value="BCOM">BCOM</option>
+        </select>
+<button onclick="suma()">Click</button>
+</center>
+</body>
+</html>
